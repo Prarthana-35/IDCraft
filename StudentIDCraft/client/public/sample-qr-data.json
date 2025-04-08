@@ -1,0 +1,18 @@
+{
+  "id": "sample123",
+  "name": "Jane Doe",
+  "rollNumber": "R12345",
+  "classDivision": "10A",
+  "rackNumber": "R22",
+  "busRoute": "Route 5",
+  "allergies": ["Peanuts", "Dust"],
+  "photo": "",
+  "createdAt": "2023-04-07T10:00:00.000Z",
+  "uniqueId": "sampleqr-1234-5678",
+  "emergencyContact": "9876543210",
+  "bloodGroup": "O+",
+  "dateOfBirth": "2005-05-15",
+  "address": "123 Main St, Anytown",
+  "parentName": "John Doe",
+  "parentPhone": "9876543210"
+}

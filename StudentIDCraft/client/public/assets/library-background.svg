@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Dark wooden floor -->
+  <rect x="0" y="600" width="1200" height="200" fill="#3d2817"/>
+  <rect x="0" y="0" width="1200" height="600" fill="#1c1420"/>
+  
+  <!-- Distant bookshelves and arches - The Hogwarts Library -->
+  <g opacity="0.8">
+    <!-- Background arches -->
+    <path d="M0,0 L0,500 Q600,400 1200,500 L1200,0 Z" fill="#0d0a12" />
+    
+    <!-- Left distant bookshelf -->
+    <rect x="50" y="100" width="300" height="400" fill="#271a0d" />
+    <rect x="60" y="110" width="280" height="380" fill="#3d2817" />
+    
+    <!-- Vertical dividers for bookshelves -->
+    <rect x="60" y="110" width="5" height="380" fill="#271a0d" />
+    <rect x="140" y="110" width="5" height="380" fill="#271a0d" />
+    <rect x="220" y="110" width="5" height="380" fill="#271a0d" />
+    <rect x="300" y="110" width="5" height="380" fill="#271a0d" />
+    <rect x="335" y="110" width="5" height="380" fill="#271a0d" />
+    
+    <!-- Horizontal shelves -->
+    <rect x="60" y="170" width="280" height="5" fill="#271a0d" />
+    <rect x="60" y="230" width="280" height="5" fill="#271a0d" />
+    <rect x="60" y="290" width="280" height="5" fill="#271a0d" />
+    <rect x="60" y="350" width="280" height="5" fill="#271a0d" />
+    <rect x="60" y="410" width="280" height="5" fill="#271a0d" />
+    <rect x="60" y="470" width="280" height="5" fill="#271a0d" />
+    
+    <!-- Right distant bookshelf -->
+    <rect x="850" y="100" width="300" height="400" fill="#271a0d" />
+    <rect x="860" y="110" width="280" height="380" fill="#3d2817" />
+    
+    <!-- Vertical dividers for bookshelves -->
+    <rect x="860" y="110" width="5" height="380" fill="#271a0d" />
+    <rect x="940" y="110" width="5" height="380" fill="#271a0d" />
+    <rect x="1020" y="110" width="5" height="380" fill="#271a0d" />
+    <rect x="1100" y="110" width="5" height="380" fill="#271a0d" />
+    <rect x="1135" y="110" width="5" height="380" fill="#271a0d" />
+    
+    <!-- Horizontal shelves -->
+    <rect x="860" y="170" width="280" height="5" fill="#271a0d" />
+    <rect x="860" y="230" width="280" height="5" fill="#271a0d" />
+    <rect x="860" y="290" width="280" height="5" fill="#271a0d" />
+    <rect x="860" y="350" width="280" height="5" fill="#271a0d" />
+    <rect x="860" y="410" width="280" height="5" fill="#271a0d" />
+    <rect x="860" y="470" width="280" height="5" fill="#271a0d" />
+    
+    <!-- Books silhouettes on left shelves - just stylized rectangles in various colors -->
+    <g opacity="0.7">
+      <!-- First shelf -->
+      <rect x="65" y="115" width="15" height="55" fill="#832424" />
+      <rect x="80" y="115" width="20" height="55" fill="#3b5e1b" />
+      <rect x="100" y="115" width="10" height="55" fill="#4a2c1a" />
+      <rect x="110" y="115" width="25" height="55" fill="#6b3030" />
+      <!-- More books... -->
+      
+      <!-- Second shelf -->
+      <rect x="65" y="175" width="20" height="55" fill="#422160" />
+      <rect x="85" y="175" width="15" height="55" fill="#5c3f1a" />
+      <rect x="100" y="175" width="30" height="55" fill="#363c54" />
+      <!-- More books... -->
+      
+      <!-- Additional shelves would follow the same pattern -->
+    </g>
+    
+    <!-- Books silhouettes on right shelves -->
+    <g opacity="0.7">
+      <!-- Repeat similar patterns for right shelves -->
+      <rect x="865" y="115" width="15" height="55" fill="#832424" />
+      <rect x="880" y="115" width="20" height="55" fill="#3b5e1b" />
+      <rect x="900" y="115" width="10" height="55" fill="#4a2c1a" />
+      <rect x="910" y="115" width="25" height="55" fill="#6b3030" />
+      <!-- More books... -->
+    </g>
+  </g>
+  
+  <!-- Central arch - main feature -->
+  <path d="M400,100 Q600,0 800,100 L800,500 L400,500 Z" fill="#1a1519" />
+  <path d="M420,120 Q600,30 780,120 L780,480 L420,480 Z" fill="#261b13" />
+  
+  <!-- Windows with blue-ish light - magical illumination -->
+  <path d="M520,150 L550,150 L550,250 L520,250 Z" fill="#1e2b4a" opacity="0.8" />
+  <path d="M650,150 L680,150 L680,250 L650,250 Z" fill="#1e2b4a" opacity="0.8" />
+  
+  <!-- Magical floating lights - simulating small lanterns -->
+  <circle cx="200" cy="150" r="10" fill="#ffcc66" opacity="0.8">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="200" cy="150" r="20" fill="#ffcc66" opacity="0.2">
+    <animate attributeName="r" values="12;25;12" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.1;0.3;0.1" dur="4s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="600" cy="100" r="8" fill="#ffcc66" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="600" cy="100" r="15" fill="#ffcc66" opacity="0.2">
+    <animate attributeName="r" values="10;20;10" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="1000" cy="200" r="12" fill="#ffcc66" opacity="0.7">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1000" cy="200" r="25" fill="#ffcc66" opacity="0.2">
+    <animate attributeName="r" values="15;30;15" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.1;0.2;0.1" dur="5s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Additional atmospheric effects -->
+  <rect x="0" y="0" width="1200" height="800" fill="url(#dust)" opacity="0.05"/>
+  
+  <!-- Dust particles filter -->
+  <defs>
+    <pattern id="dust" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.5" />
+      <circle cx="30" cy="25" r="0.8" fill="#ffffff" opacity="0.5" />
+      <circle cx="55" cy="15" r="1.2" fill="#ffffff" opacity="0.5" />
+      <circle cx="70" cy="45" r="0.7" fill="#ffffff" opacity="0.5" />
+      <circle cx="85" cy="75" r="1" fill="#ffffff" opacity="0.5" />
+      <circle cx="25" cy="80" r="0.9" fill="#ffffff" opacity="0.5" />
+    </pattern>
+  </defs>
+</svg>

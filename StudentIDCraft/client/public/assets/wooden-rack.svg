@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Wooden rack/bookshelf in Harry Potter style -->
+  
+  <!-- Backboard and sides - dark wood -->
+  <rect x="100" y="100" width="600" height="400" fill="#3d2817" rx="4" />
+  <rect x="110" y="110" width="580" height="380" fill="#4e331e" rx="2" />
+  
+  <!-- Shelf dividers - horizontal slats -->
+  <rect x="110" y="190" width="580" height="10" fill="#3d2817" />
+  <rect x="110" y="270" width="580" height="10" fill="#3d2817" />
+  <rect x="110" y="350" width="580" height="10" fill="#3d2817" />
+  <rect x="110" y="430" width="580" height="10" fill="#3d2817" />
+  
+  <!-- Vertical supports/divisions -->
+  <rect x="110" y="110" width="10" height="380" fill="#3d2817" />
+  <rect x="300" y="110" width="10" height="380" fill="#3d2817" />
+  <rect x="495" y="110" width="10" height="380" fill="#3d2817" />
+  <rect x="680" y="110" width="10" height="380" fill="#3d2817" />
+  
+  <!-- Wood grain textures -->
+  <g opacity="0.2">
+    <!-- Top shelf grain -->
+    <path d="M120,120 Q130,125 140,120 Q150,115 160,120 Q170,125 180,120" stroke="#2a1a0f" fill="none" stroke-width="1" />
+    <path d="M200,125 Q210,120 220,125 Q230,130 240,125 Q250,120 260,125" stroke="#2a1a0f" fill="none" stroke-width="1" />
+    <path d="M500,120 Q510,125 520,120 Q530,115 540,120 Q550,125 560,120" stroke="#2a1a0f" fill="none" stroke-width="1" />
+    <path d="M600,125 Q610,120 620,125 Q630,130 640,125 Q650,120 660,125" stroke="#2a1a0f" fill="none" stroke-width="1" />
+    
+    <!-- Middle shelf grain -->
+    <path d="M120,280 Q130,285 140,280 Q150,275 160,280 Q170,285 180,280" stroke="#2a1a0f" fill="none" stroke-width="1" />
+    <path d="M200,285 Q210,280 220,285 Q230,290 240,285 Q250,280 260,285" stroke="#2a1a0f" fill="none" stroke-width="1" />
+    <path d="M500,280 Q510,285 520,280 Q530,275 540,280 Q550,285 560,280" stroke="#2a1a0f" fill="none" stroke-width="1" />
+    <path d="M600,285 Q610,280 620,285 Q630,290 640,285 Q650,280 660,285" stroke="#2a1a0f" fill="none" stroke-width="1" />
+  </g>
+  
+  <!-- Decorative elements - carvings on the ends -->
+  <path d="M100,100 C105,95 110,95 115,100" stroke="#2a1a0f" fill="none" stroke-width="2" />
+  <path d="M100,500 C105,505 110,505 115,500" stroke="#2a1a0f" fill="none" stroke-width="2" />
+  <path d="M700,100 C695,95 690,95 685,100" stroke="#2a1a0f" fill="none" stroke-width="2" />
+  <path d="M700,500 C695,505 690,505 685,500" stroke="#2a1a0f" fill="none" stroke-width="2" />
+  
+  <!-- Decorative house crests carved into the wood - simplified symbols -->
+  <!-- Gryffindor lion silhouette -->
+  <path d="M150,150 C145,145 140,145 135,150 C130,155 130,160 135,165 C140,170 145,170 150,165 Z" fill="#5e3f1e" />
+  
+  <!-- Slytherin serpent silhouette -->
+  <path d="M550,150 C545,155 545,160 550,165 C555,170 560,170 565,165 C570,160 570,155 565,150 Z" fill="#5e3f1e" />
+  
+  <!-- Ravenclaw eagle silhouette -->
+  <path d="M150,390 L155,385 L160,390 L155,395 Z" fill="#5e3f1e" />
+  
+  <!-- Hufflepuff badger silhouette -->
+  <path d="M550,390 C545,385 540,385 535,390 C530,395 530,400 535,405 C540,410 545,410 550,405 Z" fill="#5e3f1e" />
+  
+  <!-- Metal accents - brackets and fixtures -->
+  <rect x="95" y="190" width="20" height="10" fill="#999" opacity="0.4" rx="1" />
+  <rect x="95" y="270" width="20" height="10" fill="#999" opacity="0.4" rx="1" />
+  <rect x="95" y="350" width="20" height="10" fill="#999" opacity="0.4" rx="1" />
+  <rect x="95" y="430" width="20" height="10" fill="#999" opacity="0.4" rx="1" />
+  
+  <rect x="685" y="190" width="20" height="10" fill="#999" opacity="0.4" rx="1" />
+  <rect x="685" y="270" width="20" height="10" fill="#999" opacity="0.4" rx="1" />
+  <rect x="685" y="350" width="20" height="10" fill="#999" opacity="0.4" rx="1" />
+  <rect x="685" y="430" width="20" height="10" fill="#999" opacity="0.4" rx="1" />
+  
+  <!-- Lighting effects - subtle highlights -->
+  <rect x="110" y="110" width="580" height="2" fill="#fff" opacity="0.1" />
+  <rect x="110" y="110" width="2" height="380" fill="#fff" opacity="0.07" />
+  <rect x="110" y="488" width="580" height="2" fill="#000" opacity="0.2" />
+  <rect x="688" y="110" width="2" height="380" fill="#000" opacity="0.2" />
+  
+  <!-- Slight worn/aged effect on edges -->
+  <g opacity="0.1">
+    <rect x="130" y="120" width="50" height="60" fill="#000" rx="2" />
+    <rect x="530" y="380" width="40" height="50" fill="#000" rx="2" />
+    <rect x="230" y="280" width="60" height="30" fill="#000" rx="2" />
+  </g>
+  
+  <!-- Magic sparkle accents - Hogwarts magic! -->
+  <circle cx="155" cy="155" r="1" fill="#ffcc66" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="555" cy="155" r="1" fill="#ffcc66" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="155" cy="395" r="1" fill="#ffcc66" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="555" cy="395" r="1" fill="#ffcc66" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.2s" repeatCount="indefinite" />
+  </circle>
+</svg>

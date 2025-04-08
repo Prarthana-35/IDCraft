@@ -1,0 +1,11 @@
+Name,Roll Number,Class Division,Bus Route,Allergies,Rack Number,Emergency Contact,Blood Group,Date of Birth,Address,Parent Name,Parent Phone
+John Smith,R1001,8A,Route 1,"Peanuts,Dairy",A12,9876543210,A+,2006-03-15,"123 Main St, Anytown",Mary Smith,9876543210
+Sarah Johnson,R1002,8B,Route 2,None,A14,9876543211,B-,2006-05-22,"456 Oak Ave, Somewhere",David Johnson,9876543211
+Michael Brown,R1003,8A,Route 3,Dust,A15,9876543212,O+,2006-02-10,"789 Pine St, Nowhere",Jennifer Brown,9876543212
+Emily Davis,R1004,9A,Route 2,"Gluten,Pollen",B23,9876543213,AB+,2005-11-05,"234 Elm St, Anywhere",Robert Davis,9876543213
+Daniel Wilson,R1005,9B,Route 1,Latex,B25,9876543214,A-,2005-07-18,"567 Maple Dr, Someplace",Patricia Wilson,9876543214
+Sophia Martinez,R1006,9A,Route 4,None,B27,9876543215,O-,2005-09-30,"890 Cedar Ln, Othertown",Carlos Martinez,9876543215
+Olivia Taylor,R1007,10A,Route 3,"Bee Stings,Shellfish",C31,9876543216,B+,2004-12-12,"123 Birch Ave, Newtown",James Taylor,9876543216
+William Anderson,R1008,10B,Route 5,Penicillin,C32,9876543217,AB-,2004-08-28,"456 Spruce Blvd, Oldtown",Linda Anderson,9876543217
+Alexander Thomas,R1009,10A,Route 2,None,C33,9876543218,A+,2004-04-03,"789 Willow St, Downtown",Karen Thomas,9876543218
+Charlotte Garcia,R1010,10B,Route 1,"Soy,Eggs",C35,9876543219,O+,2004-01-25,"234 Aspen Ct, Uptown",Miguel Garcia,9876543219
